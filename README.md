@@ -9,7 +9,7 @@
 3. Install the requirements: `pip install -r requirements.txt`
 
 4. Run the code: `python server.py`
-5. Open the browser and go to `http://127.0.0.1:5000/` (Might Vary as flask might use a different port, it will be displayed in the terminal)
+5. Open the browser and go to `http://127.0.0.1:5000/` (can vary as flask might use a different port.But, it will be displayed in the terminal)
 6. Upload the file and click on the submit button to get the results.
 7. testapi.py is a script which uploads 1322-paul-accident.mp3 audio file to the /transcribe endpoint and prints the response. You can run it using `python testapi.py`
 
