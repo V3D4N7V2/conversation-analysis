@@ -50,10 +50,12 @@ def sentiment_analysis(transcription=dummyTranscription):
             {
                 "role": "system",
                 "content": """
-                As an AI with expertise in language and emotion analysis, your task is to analyze the sentiment of the following text. Please consider the overall tone of the discussion, the emotion conveyed by the language used, and the context in which words and phrases are used. Indicate whether the sentiment is generally positive, negative, or neutral, and provide brief explanations for your analysis where possible.
+                As an AI with expertise in language and emotion analysis, your task is to analyze the sentiment of the following text. Please consider the overall tone of the discussion, the emotion conveyed by the language used, and the context in which words and phrases are used. 
+                
+                Indicate whether the tone and sentiment of the conversation is generally positive, negative, or neutral, and provide brief explanations for your analysis where possible.
 
                 
-                You will also extract Information such as likes, dislikes, hobbies, mood, empathy, confidence, psychological insights and other personal information from the conversation.
+                You will extract Information such as likes, dislikes, hobbies, mood, empathy, confidence, psychological insights and other personal information from the conversation.
                 You will give your conclusions in the following format for each type of information extracted:
                 <Speaker> : <Info Type> -> <Conclusion>, <Explanation>
                 For example:
