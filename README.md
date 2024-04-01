@@ -13,3 +13,11 @@
 6. Upload the file and click on the submit button to get the results.
 7. testapi.py is a script which uploads 1322-paul-accident.mp3 audio file to the /transcribe endpoint and prints the response. You can run it using `python testapi.py`
 
+## ~~Whats left~~ Challanges/Issues faced:
+1. ~~API on Cloud Service Provider.~~
+2. PS. I don't have a credit card, so ended up hosting the code at `http://vedantghuge.pythonanywhere.com/` (webui)
+3.  and the API at `http://vedantghuge.pythonanywhere.com/transcribe` (API)
+4.  Local Server works totally fine though.
+5. The service dosen't work well with longer audios, and the transcriptions fail (my guess is some upload speed/size limit. as I got this error `Exception: [Errno 90] Message too long`)
+6. `1322-paul-accident60sec.mp3` seemed to work fine.
+7. Also, The webserver is using gemini pro, wanted to try using it.
